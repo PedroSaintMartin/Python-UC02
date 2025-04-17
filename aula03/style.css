@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+header {
+    background-color: black;
+    padding: 1%;
+}
+
+header nav i {
+    font-size: 40px;
+}
+
+main nav a {
+    color: black;
+}
+
+footer {
+    color: #fff;
+    background-color: black; 
+    height: 100%;
+}
+
+footer div {
+    display: flex;
+}
+
+footer div ul {
+    margin: 2% 5%;
+}
+
+footer div ul li:first-child {
+    margin-bottom: 15%;
+    font-size: 25px;
+}
+
+footer div ul li {
+    padding-bottom: 5px;
+}
+
+footer div ul li a {
+    padding-left: 25px;
+}
+
+footer div ul:nth-child(2) li {
+    padding-left: 25px;
+}
+
+footer div ul:nth-child(2) li:first-child {
+    padding-left: 0;
+}
+
+hr {
+    border-color: rgb(125, 125, 125);
+    margin: 0 1%;
+}
+
+input {
+    background-color: black;
+    border-style: none;
+    border: 1px solid rgb(125, 125, 125);
+    border-radius: 5px 0 0 5px;
+    padding: 1% 25%;
+    margin-right: 0.5%;
+}
+
+input::placeholder{
+    color: rgba(255, 255, 255, 0.4);
+    width: max-content;
+}
+
+.btnBusca {
+    color: rgb(125, 125, 125);
+    background-color: black;
+    border: solid, 1px, rgb(125, 125, 125);
+    border-radius: 0 5px 5px 0;
+    padding: 1% 2.5%;
+}
+
+.selectDropDown {
+    padding: 2.5% 35%;
+    margin-right: 15%;
+    background-color: black;
+    border: solid, 1px, rgb(125, 125, 125);
+    border-radius: 5px;
+}
