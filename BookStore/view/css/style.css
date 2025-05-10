@@ -1,0 +1,13 @@
+.index-img-1 { 
+    background-image: url('../src/composicao-livro-com-livro-aberto.jpg'); 
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(5px);
+}
+
+.index-img-2 { 
+    background-image: url('../src/maos-segurando-um-livro-de-alto-angulo.jpg');
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(5px);
+}
