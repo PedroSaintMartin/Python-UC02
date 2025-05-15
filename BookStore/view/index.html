@@ -13,34 +13,26 @@
     <link rel="stylesheet" href="css/fonts.css">
 </head>
 
-<body class="container quicksand">
-    <header class="mt-5 mb-5">
-        <nav class="navbar navbar-expand-lg navbar-light ms-5">
-            <div style="font-size: 2em;" class="container-fluid">
-                <a class="navbar-brand" href="index.html">
-                    <img src="src/bookSvg.svg" height="100" />
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
+<body class="container quicksand" style="min-width: 1260px;">
+    <header class="p-4 m-5" style="font-size: 1.5em;">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html" style="font-size: 1.7em;">BOOK STORE</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse bg-antiquewhite" id="navbarNavDropdown">
+                <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            <a class="nav-link" href="produtos.html">Produtos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="books.html">Livros</a>
+                            <a class="nav-link" href="login.html">Login</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item quicksand-700" href="login.html">Login</a></li>
-                                <li><a class="dropdown-item" href="cadastro.html">Cadastrar-se</a></li>
-                            </ul>
+                        <li class="nav-item">
+                            <a class="nav-link" href="cadastro.html">Cadastrar-se</a>
                         </li>
                     </ul>
                 </div>
@@ -52,7 +44,7 @@
         <section class="tangerine-regular" style="font-size: 2.5em;">
             <article class="d-flex row" style="background-color: antiquewhite;">
                 <div class="col-7 index-img-1 d-flex align-items-center justify-content-center p-5">
-                    <p class="text-center">
+                    <p class="text-justify lh-1" style="text-shadow: 0 0 5px #000; color: #fff;">
                         Em um mundo cada vez mais acelerado,
                         onde a rotina e a conformidade muitas
                         vezes sufocam nossa essência criativa,
@@ -64,7 +56,7 @@
                 </div>
 
                 <div class="col-5 p-5">
-                    <p class="text-center">
+                    <p class="text-justify lh-1">
                         Aqui, a criatividade não é apenas uma palavra;
                         é a essência que guia a curadoria de nosso acervo.
                         Somos apaixonados por selecionar obras que estimulam a mente,
@@ -77,7 +69,7 @@
             </article>
             <article style="background-color: antiquewhite;" class="d-flex row mt-5">
                 <div class="col-5 p-5">
-                    <p class="text-center">
+                    <p class="text-justify lh-1">
                         Nosso espaço foi concebido para ser mais que uma simples livraria:
                         é um ambiente de encontro entre mentes inquietas e almas criativas.
                         As estantes, repletas de livros que transcendem a mera literatura,
@@ -88,7 +80,7 @@
                 </div>
 
                 <div class="col-7 index-img-2 d-flex align-items-center justify-content-center p-5">
-                    <p class="text-center">
+                    <p class="text-justify lh-1" style="text-shadow: 0 0 5px #fff; color: #000;">
                         Convidamos você a se perder em nossas prateleiras, onde a cada título
                         você encontrará um convite para criar, repensar, reinventar. Para nós,
                         um livro não é apenas uma fonte de conhecimento, mas uma ferramenta
@@ -99,13 +91,17 @@
                 </div>
             </article>
 
-            <article class="text-center mt-4">
+            <article class="text-center mt-3">
                 <p>Descubra, explore, crie. Nossa livraria é o lugar onde a imaginação nunca encontra limites.</p>
             </article>
         </section>
 
+        <div class="d-flex align-items-center justify-content-center">
+            <img src="src/arabesco2.png" width="25%" alt="arabesco 2" style="transform: rotate(180deg);">
+        </div>
+
         <section class="row d-flex align-items-center justify-content-center">
-            <div id="carouselExampleSlidesOnly" class="carousel slide col-3" data-bs-ride="carousel">
+            <div id="carouselExampleSlidesOnly" class="carousel slide col-3 mb-5" data-bs-ride="carousel" style="width: 300px;">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="src/noitesBrancas.jpg" class="d-block w-100">
@@ -119,27 +115,38 @@
                 </div>
             </div>
             <div class="col-9 tangerine-regular">
-                <h1 style="font-size: 2.5em;" class="quicksand-300 text-center">Aventura Literária Espera por Você: Desvende o Invisível em Cada Página</h1>
-                <p style="font-size: 2em;">
-                    Já imaginou um lugar onde os livros não são apenas palavras, mas portais para mundos desconhecidos? Nossa biblioteca é esse espaço: 
-                    um convite para uma jornada de descobertas literárias que desafiam a sua imaginação. Cada prateleira guarda histórias que se entrelaçam 
-                    com sua curiosidade, ideias que provocam reflexões e aventuras que estimulam sua criatividade. Não se trata apenas de ler, mas de viver 
+                <h1 style="font-size: 2.5em;" class="h1 quicksand-300 text-center mb-5">Aventura Literária Espera por Você
+                    <br/><small class="text-body-secondary quicksand-300">Desvende o Invisível em Cada Página</small>
+                </h1>
+
+                <p class="text-justify lh-sm" style="font-size: 2em;">
+                    Já imaginou um lugar onde os livros não são apenas palavras, mas portais para mundos desconhecidos?
+                    Nossa biblioteca é esse espaço:
+                    um convite para uma jornada de descobertas literárias que desafiam a sua imaginação. Cada prateleira
+                    guarda histórias que se entrelaçam
+                    com sua curiosidade, ideias que provocam reflexões e aventuras que estimulam sua criatividade. Não
+                    se trata apenas de ler, mas de viver
                     cada página como uma experiência transformadora.
                 </p>
-                <div class="d-flex align-items-center justify-content-center">
-                    <img src="src/arabesco.svg" width="25%">
-                </div>
-                <p style="font-size: 2em;">
-                    Aqui, você não encontra apenas títulos, mas possibilidades infinitas. De clássicos imortais a raridades esquecidas, 
-                    cada livro é uma chave para um novo universo. Se você tem coragem de explorar o inesperado, venha nos visitar. 
-                    Deixe que nossas estantes revelem o que ainda está por descobrir — e quem sabe, um livro que pode mudar a forma como você vê o mundo.
+
+                <p class="text-justify lh-sm" style="font-size: 2em;">
+                    Aqui, você não encontra apenas títulos, mas possibilidades infinitas. De clássicos imortais a
+                    raridades esquecidas,
+                    cada livro é uma chave para um novo universo. Se você tem coragem de explorar o inesperado, venha
+                    nos visitar.
+                    Deixe que nossas estantes revelem o que ainda está por descobrir — e quem sabe, um livro que pode
+                    mudar a forma como você vê o mundo.
                 </p>
             </div>
         </section>
     </main>
 
-    <footer class="row text-center mt-5 mb-5">
-        <p style="font-size: 2em;">&copy; Todos Direitos Reservados - 2025 - Book Store</p>
+    <div class="d-flex align-items-center justify-content-center m-5">
+        <img src="src/arabesco.svg" width="20%" alt="arabesco 1">
+    </div>
+
+    <footer>
+        <p style="font-size: 1.5em;" class="text-center">&copy; Todos Direitos Reservados - 2025 - BookStore</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>

@@ -37,4 +37,8 @@
     font-weight: 700;
     font-style: normal;
 }
+
+.text-justify {
+    text-align: justify;
+}
   
